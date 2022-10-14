@@ -1,0 +1,222 @@
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav {
+  background: #FFC297;
+  width: 75px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 32px;
+  margin-top: -35px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+label {
+  font-size: 26px;
+  display: block;
+  margin-top: 20px;
+}
+
+input {
+  border: 2px solid #858585;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 30px;
+  font-size: 24px;
+}
+
+select {
+  border: 2px solid #858585;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 30px;
+  width: 438px;
+  height: 70px;
+  font-size: 24px;
+  color: #858585;
+}
+
+option {
+  color: #000;
+}
+
+::placeholder {
+  font-size: 24px;
+  color: #858585;
+}
+
+.btn-nav:hover {
+  transform: scale(1.7);
+}
+
+.btn-settings:hover,
+.btn-nav-logo:hover,
+.btn-nav-settings:hover,
+.go-back:hover {
+  transform: scale(1.2);
+}
+
+.btn-cancel:hover {
+  background: #FF7008;
+  color: #FFFFFF;
+}
+
+.btn-save:hover {
+  background: #FFFFFF;
+  border: 2px solid #FF7008;
+  color: #FF7008;
+}
+
+.wrap {
+  display: flex;
+  margin-top: -16px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  max-width: 1px;
+}
+
+.btn-nav {
+  margin-left: -25px;
+  margin-bottom: 100px;
+}
+
+.btn-nav-logo {
+  margin-top: 20px;
+  margin-left: -35px;
+  margin-bottom: 100px;
+}
+
+.btn-nav-settings {
+  margin-left: -35px;
+  margin-top: 220px;
+  margin-bottom: 20px;
+}
+
+.logo,
+.settings-nav {
+  width: 50px;
+  height: 50px;
+}
+
+.img-nav {
+  width: 25px;
+  height: 25px;
+}
+
+.settings {
+  margin-top: -1125px;
+  margin-left: 100px;
+  height: 1070px;
+  border-right: 3px solid #858585;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.btn-settings {
+  margin-top: 80px;
+  margin-left: -25px;
+}
+
+.img-settings {
+  width: 200px;
+  height: 50px;
+}
+
+.profile {
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.edit-profile {
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+.container-profile {
+  width: 1075px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+.container-profile img {
+  margin-top: 20px;
+  margin-right: 150px;
+}
+
+.name {
+  display: flex;
+  margin-top: 25px;
+}
+
+.name input {
+  width: 405px;
+  height: 70px;
+}
+
+.last-name,
+.state {
+  margin-left: 50px;
+}
+
+.large-input {
+  width: 895px;
+  height: 70px;
+}
+
+.city {
+  display: flex;
+}
+
+.btn-form {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-cancel {
+  width: 180px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 2px solid #FF7008;
+  border-radius: 5px;
+  color: #FF7008;
+  font-size: 28px;
+}
+
+.btn-save {
+  width: 180px;
+  height: 55px;
+  background: #FF7008;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 28px;
+  margin-left: 25px;
+}

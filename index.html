@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile Website (Community)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <nav>
+        <ol>
+          <li>
+            <button class="btn-nav-logo" type="button"><img class="logo" src="./images/logo.png"><span class="visually-hidden">Persian Design</span></button>
+          </li>
+          <li>
+            <button class="btn-nav" type="button"><img class="img-nav" src="./images/home.png"><span class="visually-hidden">Home</span></button>
+          </li>
+          <li>
+            <button class="btn-nav" type="button"><img class="img-nav" src="./images/notifications.png"><span class="visually-hidden">Notifications</span></button>
+          </li>
+          <li>
+            <button class="btn-nav" type="button"><img class="img-nav" src="./images/calendar.png"><span class="visually-hidden">Calendar</span></button>
+          </li>
+          <li>
+            <button class="btn-nav" type="button"><img class="img-nav" src="./images/chart.png"><span class="visually-hidden">Chart</span></button>
+          </li>
+          <li>
+            <button class="btn-nav" type="button"><img class="img-nav" src="./images/user.png"><span class="visually-hidden">Account</span></button>
+          </li>
+          <li>
+            <button class="btn-nav-settings" type="button"><img class="settings-nav" src="./images/settings.png"><span class="visually-hidden">Settings</span></button>
+          </li>
+        </ol>
+      </nav>
+      <section class="settings">
+        <button class="go-back" type="button"><img src="./images/goback.png"><span class="visually-hidden">Go back</span></button>
+        <p>settings</p>
+        <ol>
+          <li>
+            <button class="btn-settings" type="button"><img src="./images/edit.png"><span class="visually-hidden">Edit profile</span></button>
+          </li>
+          <li>
+            <button class="btn-settings" type="button"><img src="./images/notification.png"><span class="visually-hidden">Notification</span></button>
+          </li>
+          <li>
+            <button class="btn-settings" type="button"><img src="./images/security.png"><span class="visually-hidden">Security</span></button>
+          </li>
+          <li>
+            <button class="btn-settings" type="button"><img src="./images/appereance.png"><span class="visually-hidden">Appereance</span></button>
+          </li>
+          <li>
+            <button class="btn-settings" type="button"><img src="./images/help.png"><span class="visually-hidden">Help</span></button>
+          </li>
+        </ol>
+      </section>
+    </header>
+    <main>
+      <div class="profile">
+        <a href="#"><img src="./images/profile.png" alt=""><span class="visually-hidden">Profile</span></a>
+      </div>
+      <section class="edit-profile">
+        <div class="container-profile">
+          <h1>Edit profile</h1>
+          <img src="./images/photo.png" alt="">
+        </div>
+        <form action="" method="get">
+          <div>
+            <div class="name">
+              <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Mehrab">
+              </div>
+              <div class="last-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Bozorgi">
+              </div>
+            </div>
+            <label for="email">Email</label>
+            <input class="large-input" type="email" id="last-name" name="last-name" placeholder="Mehrabbozorgi.business@gmail.com">
+            <label for="addres">Address</label>
+            <input class="large-input" type="text" id="address" name="address" placeholder="33062 Zboncak isle">
+            <label for="contact-number">Contact Number</label>
+            <input class="large-input" type="text" id="contact-number" name="contact-number" placeholder="58077.79">
+            <div class="city">
+              <div>
+                <label for="city">City</label>
+                <select name="city" id="city">
+                  <option value="mehrab">Mehrab</option>
+                  <option value="new-york">New York</option>
+                  <option value="chicago">Chicago</option>
+                </select>
+              </div>
+              <div class="state" >
+                <label for="state">State</label>
+                <select name="state" id="state">
+                  <option value="borzorgi">Bozorgi</option>
+                  <option value="florida">Florida</option>
+                  <option value="texas">Texas</option>
+                </select>
+              </div>
+            </div>
+            <label for="password">Password</label>
+            <input class="large-input" type="password" id="password" name="password" placeholder="sbdfbnd65sfdvb s">
+            <div class="btn-form">
+              <button class="btn-cancel" type="button">Cancel</button>
+              <button class="btn-save" type="button">Save</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
